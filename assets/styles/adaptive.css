@@ -1,0 +1,125 @@
+@media (max-width: 1600px) {
+  .product {
+    min-width: 400px;
+  }
+}
+@media (max-width: 1250px) {
+  .sale__container {
+    flex-direction: column;
+  }
+  .about__container {
+    flex-wrap: wrap;
+  }
+  .about__img {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .edge {
+    flex-direction: column;
+  }
+  .edge__img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 100%;
+    max-height: 600px;
+  }
+  .edge__box {
+    padding: 20px 30px 40px;
+    transform: none;
+  }
+  .news__head-info {
+    margin-bottom: 0px;
+  }
+  .news__head {
+    flex-direction: column;
+    align-items: start;
+  }
+  .subscribe__container {
+    flex-direction: column;
+    align-items: start;
+    padding: 20px 40px;
+  }
+  .footer__container {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .footer__col {
+    align-items: start;
+    width: 100%;
+    padding: 20px 0;
+  }
+  .footer__col-center {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #D5D5D5;
+    border-bottom: 1px solid #D5D5D5;
+    padding: 20px 0;
+  }
+  .footer {
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 1010px) {
+  .header__container {
+    flex-wrap: wrap;
+  }
+  .header__nav {
+    order: 2;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+  .news__container {
+    flex-direction: column;
+  }
+  .product {
+    min-width: 330px;
+  }
+}
+@media (max-width: 700px) {
+  .product {
+    min-width: auto;
+    width: 100%;
+  }
+  .news__box {
+    padding: 0;
+  }
+  .news__card-title {
+    width: 100%;
+  }
+  .news__card {
+    padding: 25px;
+  }
+  .news__card p {
+    width: 100%;
+  }
+  .subscribe__container {
+    padding: 20px;
+  }
+  .subscribe__form {
+    width: 100%;
+    flex-direction: column;
+  }
+  .subscribe__input {
+    width: 100%;
+    padding: 26px 30px;
+  }
+  .subscribe__btn {
+    width: 200px;
+  }
+}
+@media (max-width: 550px) {
+  .header__nav {
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  .header__nav-link {
+    margin-top: 10px;
+  }
+  .section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}/*# sourceMappingURL=adaptive.css.map */
